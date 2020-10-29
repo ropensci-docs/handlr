@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "9deb5a5a95f37af2e97430a59edced1f3bdf82a1",
+    "author": "Scott Chamberlain <myrmecocystus@gmail.com>",
+    "time": "2020-10-29 22:26:36",
+    "files": 1,
+    "merge": false,
+    "message": "REVDEPCHECK - revdep - try different os\n"
+  },
+  "remote": "https://github.com/ropensci/handlr",
+  "pkg": "handlr"
+}
