@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "654d2a3799c4fc8514634f22e947775c52ab6e9f",
+    "author": "Brenton M. Wiernik <bwiernik@users.noreply.github.com>",
+    "time": "2022-04-22 14:07:07",
+    "files": 2,
+    "merge": false,
+    "message": "Add .Rproj to git tracking\n"
+  },
+  "repo": "https://github.com/ropensci/handlr",
+  "pkg": "handlr"
+}
