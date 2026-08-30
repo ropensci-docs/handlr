@@ -1,0 +1,108 @@
+# handlr
+
+[![Project Status: Active – The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![codecov.io](https://codecov.io/github/ropensci/handlr/coverage.svg?branch=master)](https://app.codecov.io/github/ropensci/handlr?branch=master)
+[![rstudio mirror
+downloads](https://cranlogs.r-pkg.org/badges/handlr)](https://github.com/r-hub/cranlogs.app)
+[![cran
+version](https://www.r-pkg.org/badges/version/handlr)](https://cran.r-project.org/package=handlr)
+
+a tool for converting among citation formats.
+
+heavily influenced by, and code ported from the Ruby gem `bolognese`
+
+supported readers:
+
+- citeproc
+- ris
+- bibtex
+- codemeta
+- cff
+
+supported writers:
+
+- citeproc
+- ris
+- bibtex
+- schemaorg
+- rdfxml
+- codemeta
+- cff
+
+not supported yet, but plan to:
+
+- crosscite
+
+## Installation
+
+stable version
+
+``` R
+install.packages("handlr")
+```
+
+dev version
+
+``` R
+remotes::install_github("ropensci/handlr")
+
+library("handlr")
+```
+
+## Meta
+
+- Please [report any issues or
+  bugs](https://github.com/ropensci/handlr/issues).
+- License: MIT
+- Get citation information for `handlr` in R doing
+  `citation(package = 'handlr')`
+- Please note that this package is released with a [Contributor Code of
+  Conduct](https://ropensci.org/code-of-conduct/). By contributing to
+  this project, you agree to abide by its terms.
+
+# Package index
+
+## All functions
+
+- [`HandlrClient`](https://docs.ropensci.org/handlr/reference/HandlrClient.md)
+  : HandlrClient
+- [`bibtex_reader()`](https://docs.ropensci.org/handlr/reference/bibtex_reader.md)
+  : bibtex reader
+- [`bibtex_writer()`](https://docs.ropensci.org/handlr/reference/bibtex_writer.md)
+  : bibtex writer
+- [`c(`*`<handl>`*`)`](https://docs.ropensci.org/handlr/reference/c.handl.md)
+  : combine many handl objects
+- [`cff_reader()`](https://docs.ropensci.org/handlr/reference/cff_reader.md)
+  : Citation File Format (cff) reader
+- [`cff_reference_types`](https://docs.ropensci.org/handlr/reference/cff_reference_types.md)
+  : cff references types
+- [`cff_writer()`](https://docs.ropensci.org/handlr/reference/cff_writer.md)
+  : Citation File Format (cff) writer
+- [`citeproc_reader()`](https://docs.ropensci.org/handlr/reference/citeproc_reader.md)
+  : citeproc reader
+- [`citeproc_writer()`](https://docs.ropensci.org/handlr/reference/citeproc_writer.md)
+  : citeproc writer
+- [`codemeta_reader()`](https://docs.ropensci.org/handlr/reference/codemeta_reader.md)
+  : codemeta reader
+- [`codemeta_writer()`](https://docs.ropensci.org/handlr/reference/codemeta_writer.md)
+  : codemeta writer
+- [`handl`](https://docs.ropensci.org/handlr/reference/handl.md) : handl
+  object
+- [`handl_to_df()`](https://docs.ropensci.org/handlr/reference/handl_to_df.md)
+  : handl to data.frame conversion
+- [`rdf_xml_writer()`](https://docs.ropensci.org/handlr/reference/rdf_xml_writer.md)
+  : RDF XML writer
+- [`ris_reader()`](https://docs.ropensci.org/handlr/reference/ris_reader.md)
+  : ris reader (Research Information Systems)
+- [`ris_writer()`](https://docs.ropensci.org/handlr/reference/ris_writer.md)
+  : ris writer (Research Information Systems)
+- [`schema_org_writer()`](https://docs.ropensci.org/handlr/reference/schema_org_writer.md)
+  : Schema org writer
+
+# Articles
+
+### All vignettes
+
+- [handlr](https://docs.ropensci.org/handlr/articles/handlr.md):

@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "b48a84abe9b6eed938dfee0492f8ffeb127d45e6",
+    "author": "Brenton M. Wiernik <bwiernik@users.noreply.github.com>",
+    "time": "2025-03-04T00:12:10Z",
+    "files": 34,
+    "merge": true,
+    "message": "Merge pull request #36 from ropensci/rc_0_3_1\n\n"
+  },
+  "repo": "https://github.com/ropensci/handlr",
+  "pkg": "handlr",
+  "time": "2026-08-30T07:31:36Z"
+}
